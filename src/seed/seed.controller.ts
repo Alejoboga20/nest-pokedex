@@ -10,3 +10,5 @@ export class SeedController {
     return this.seedService.executeSeed();
   }
 }
+
+//fetch is only available in node 18 or greater
