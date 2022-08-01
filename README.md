@@ -23,7 +23,13 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Run Application
+5. Seed DB (only in development)
+
+```
+GET http://localhost:3000/api/v2/seed
+```
+
+6. Run Application
 
 ```
 yarn start:dev
