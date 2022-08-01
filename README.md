@@ -23,6 +23,12 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Run Application
+
+```
+yarn start:dev
+```
+
 ## Tech Stack
 
 - MongoDB
