@@ -1,0 +1,6 @@
+dist/
+mongodb/
+node_modules/
+.git/
+
+.gitignore
