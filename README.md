@@ -41,3 +41,12 @@ yarn start:dev
 
 - MongoDB
 - Nest
+
+## Notes
+
+To force a Heroku redeploy with no changes:
+
+```
+git commit --allow-empty -m "Trigger Heroku Deploy"
+git push heroku <branchName>
+```
